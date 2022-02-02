@@ -53,8 +53,8 @@ const Navbar = ({ className }) => {
         <div className="flex items-center justify-between py-2">
           <Link className="flex items-center gap-1" to="/">
             <StaticImage
-              src="../img/urbangarden-icon.png"
-              alt="UrbanGarden icon"
+              src="../img/logo.png"
+              alt="Logo de Villa de Miraflores 1523"
               className="w-8 h-8 sm:w-10 sm:h-10"
               layout="constrained"
               width={40}
@@ -63,9 +63,8 @@ const Navbar = ({ className }) => {
               backgroundColor="transparent"
               placeholder="blurred"
             />
-            <div className="text-xl font-bold tracking-wide lg:text-2xl">
-              <span className="text-gray-800 font-semibold">Urban</span>
-              <span className="text-green-700">Garden</span>
+            <div className="text-xl font-bold tracking-wide">
+              <span className="text-gray-700 font-semibold px-5">Villa de Miraflores</span>
             </div>
           </Link>
 
@@ -100,7 +99,7 @@ const Navbar = ({ className }) => {
                 setMenuOpen(false)
               }}
             >
-              Home
+              Inicio
             </ExactNavLink>
             <PartialNavLink
               to="/projects"
@@ -108,7 +107,7 @@ const Navbar = ({ className }) => {
                 setMenuOpen(false)
               }}
             >
-              Projects
+              Proyectos
             </PartialNavLink>
             <ExactNavLink
               to="/about"
@@ -116,7 +115,7 @@ const Navbar = ({ className }) => {
                 setMenuOpen(false)
               }}
             >
-              About
+              La asociación
             </ExactNavLink>
             <ExactNavLink
               to="/contact"
@@ -124,7 +123,7 @@ const Navbar = ({ className }) => {
                 setMenuOpen(false)
               }}
             >
-              Contact
+              Contacto
             </ExactNavLink>
             <a
               href="https://github.com/jimmybutton/gatsby-netlifycms-tailwind-starter"

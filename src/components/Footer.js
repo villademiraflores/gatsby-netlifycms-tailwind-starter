@@ -131,7 +131,7 @@ const Footer = () => {
 
         <div>
           <p className="text-center text-gray-800 dark:text-white">
-            © Brand 2020 - All rights reserved
+            ©2022 Asociación Cultural Villa de Miraflores 1523
           </p>
         </div>
       </div>

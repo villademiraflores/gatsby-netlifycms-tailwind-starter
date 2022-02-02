@@ -3,7 +3,7 @@ const siteUrl =
 
 module.exports = {
   siteMetadata: {
-    title: "UrbanGarden",
+    title: "Villa de Miraflores 1523",
     description:
       "Transforming and enriching our urban environments with green living spaces",
     siteUrl: "https://objective-thompson-fe2703.netlify.app",

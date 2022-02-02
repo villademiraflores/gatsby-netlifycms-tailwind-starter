@@ -30,8 +30,8 @@ const IndexPageTemplate = ({
 
             <div className="relative z-20 mx-auto lg:max-w-7xl px-4 sm:px-6 lg:px-8">
               <div className="text-center max-w-md mx-auto lg:max-w-lg lg:mx-0 lg:text-left">
-                <h1 className="text-3xl font-bold text-white sm:text-4xl lg:text-5xl">
-                  {heading}
+                <h1 className="text-3xl font-bold text-white sm:text-4xl lg:text-4xl">
+                  <span className="block">Asociación Cultural</span>{heading}
                 </h1>
                 <p className="mt-2 text-green-100 sm:mt-4 lg:mt-6 lg:text-xl">
                   {subheading}
